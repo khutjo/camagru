@@ -1,0 +1,116 @@
+.home_screen_background {
+    background: rgb(98, 59, 88);
+}
+.top_div {
+    background-color: rgb(10, 1, 8);
+    height: 100px;
+    min-width: 650px;
+    width: 100%;
+}
+img.home_logo {
+    width: 100px;
+    height: 100px;
+}
+.forgot {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin: -20px auto;
+    background: rgba(0, 0, 0, 0.489);
+}
+input.input_form {
+    margin: 10px 50px;
+    height: 35px;
+    width: 400px;
+    background: white;
+}
+input.login_button {
+    height: 30px;
+    width: 90px;
+    color: white;
+    font-size: 18px;
+    margin: 20px 200px;
+    border-color: rgb(98, 59, 88);
+    background: rgb(98, 59, 88);
+}
+input.delete_button {
+    height: 30px;
+    width: 90px;
+    color: white;
+    font-size: 18px;
+    margin: 10px 60px;
+    border-color: rgb(98, 59, 88);
+    background: rgb(98, 59, 88);
+}
+.form_container {
+    height: 300px;
+    width: 100%;
+    margin: 120px auto;
+}
+.fy_info {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 46px;
+    text-align: center;
+}
+.pin_change {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin: 30px 0px;
+}
+.check_box {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin: -35px 0px;
+}
+.error_m {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    text-align: center;
+}
+/*drop down manu*/
+.dropbtn {
+    border-color: rgb(53, 31, 47);
+    background-color: rgb(98, 59, 88);
+    height: 30px;
+    /* width: 90px; */
+    color: white;
+    font-size: 20px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    float: right;
+    margin: -77px 20px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: rgb(53, 31, 47);}

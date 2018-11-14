@@ -1,0 +1,103 @@
+/* bar at the top*/
+div.top_div {
+    background-color: rgb(10, 1, 8);
+    height: 100px;
+    min-width: 650px;
+    width: 100%;
+    }
+/* home page logo img */
+img.home_logo {
+    width: 100px;
+    height: 100px;
+}
+/*div that hold the form */
+div.login_form_div {
+    margin-top: 30px;
+    margin-right: 10px;
+    float: right;
+    width: 480px;
+    height: 60px;
+}
+
+/* background */
+body.home_screen_background {
+    background: rgb(98, 59, 88);
+}
+/* login form inputs */
+input.input_form {
+    height: 30px;
+    background: white;
+}
+input.pic_nav_B {
+    margin-top: 300px;
+    height: 90px;
+    width: 35px;
+    color: white;
+    border-radius: 5px;
+    border-color: rgb(122, 120, 122);
+    background: rgb(122, 120, 122);
+}
+input.login_button {
+    height: 30px;
+    width: 90px;
+    color: white;
+    border-color: rgb(98, 59, 88);
+    background: rgb(98, 59, 88);
+}
+/*mainscreen div */
+div.main_div {
+    margin: 30 auto;
+    min-width: 660px;
+    width: 770px;
+    height: 690px;
+    background: rgba(0, 0, 0, 0.489);
+}
+/*bottom doiv bar*/
+div.bottom_div_bar {
+    background-color: rgb(10, 1, 8);
+    height: 100px;
+    min-width: 800px;
+    width: 100%;
+}
+img.whaaat {
+    margin: 45px 45px;
+    height: 600px;
+    width: 600px;
+}
+/*sign up section*/
+/*SIGN UP FORM DIV CONTAINER*/
+div.SIGNUP_DIV {
+    float: right;
+    margin: 55px 100px;
+    height: 400px;
+    width: 540px;
+}
+b.set_text_color {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 46px;
+    color: white;
+}
+div.form_div {
+    margin: 100px auto;
+    width: 500px;
+}
+input.signup_in {
+    margin: 0px 95px;
+    width: 300px;
+    height: 35px;
+}
+/*error text */
+p.php_interface {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 100px;
+    color: red;
+}
+input.signup_button {
+    margin: 10px 200px;
+    height: 35px;
+    width: 90px;
+    color: white;
+    border-radius: 5px;
+    border-color: rgb(92, 69, 86);
+    background: rgb(43, 26, 39);
+}
